@@ -8,10 +8,8 @@ import './style.css' // o donde tengas Tailwind importado
 import './assets/theme.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faUser)
 
 
 const app = createApp(App)
