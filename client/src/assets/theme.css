@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Work+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #ffffff;
+  --card: #bbd7ce;
+  --gold: #000000;
+  --wine: #7a3b4e;
+  --ivory: #b23c01;
+  --stone: #9c9686;
+}
+
+.font-display { font-family: 'Gill Sans', serif; }
+.font-body { font-family: 'Work Sans', sans-serif; }
+.font-mono { font-family: 'IBM Plex Mono', monospace; }
+
+.field {
+  background: var(--bg);
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  border-radius: 2px;
+  padding: 0.6rem 0.75rem;
+  color: var(--ivory);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.field:focus {
+  border-color: var(--gold);
+}
+.field::placeholder {
+  color: var(--stone);
+}
+
+/* signature element: a real jewelry price tag, with notch + hole */
+.price-tag {
+  position: relative;
+  background: var(--gold);
+  color: var(--bg);
+  padding: 0.3rem 0.7rem 0.3rem 1.1rem;
+  border-radius: 2px;
+ }
